@@ -1,0 +1,4 @@
+# Add all the files that should not be included in git
+# environment file and node_modules are already added
+
+node_modules

@@ -1,0 +1,38 @@
+{
+  "name": "create-express-web-app",
+  "version": "1.0.0",
+  "description": "A package to easily create the best express web application structure",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-express-web-app": "./index.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "mongodb",
+    "mongoose",
+    "folder-structure",
+    "web-application",
+    "mern"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theanuragsrivastava/create-express-web-app.git"
+  },
+  "author": "Anurag Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "child_process": "^1.0.2",
+    "express-validator": "^6.15.0",
+    "fs": "^0.0.1-security",
+    "ora": "^6.1.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
