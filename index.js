@@ -68,10 +68,18 @@ const creatingFiles = () => {
     "server.js",
     fs.readFileSync(path.join(__dirname, "/templates/server.js"))
   );
+
   fs.writeFileSync(
     ".env",
-    fs.readFileSync(path.join(__dirname, "/templates/.env"))
+    `
+  PORT=8000
+
+  DB_USER_NAME=""
+  DB_PASSWORD=""
+  DB_NAME=""
+  `
   );
+
   fs.writeFileSync(
     ".gitignore",
     fs.readFileSync(path.join(__dirname, "/templates/.gitignore"))
