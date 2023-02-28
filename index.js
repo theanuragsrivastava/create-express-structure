@@ -82,7 +82,12 @@ const creatingFiles = () => {
 
   fs.writeFileSync(
     ".gitignore",
-    fs.readFileSync(path.join(__dirname, "/templates/.gitignore"))
+    `
+    # Add all the files that should not be included in git
+    # environment file and node_modules are already added
+
+    node_modules
+    .env`
   );
 
   requiredFiles.controllerFiles.forEach((file) => {
@@ -132,14 +137,6 @@ const creatingFiles = () => {
   requiredFiles.configFiles.forEach((file) => {
     createFiles(__dirname, `config/${file}`, `/templates/config/${file}`);
   });
-
-  fs.appendFileSync(
-    ".gitignore",
-    `
-  
-  .env
-  `
-  );
 };
 
 const creatingStructure = () => {
