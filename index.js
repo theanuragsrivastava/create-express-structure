@@ -84,7 +84,6 @@ const creatingFiles = () => {
     ".gitignore",
     fs.readFileSync(path.join(__dirname, "/templates/.gitignore"))
   );
-  fs.appendFileSync(".gitignore", ".env");
 
   requiredFiles.controllerFiles.forEach((file) => {
     createFiles(
@@ -133,6 +132,14 @@ const creatingFiles = () => {
   requiredFiles.configFiles.forEach((file) => {
     createFiles(__dirname, `config/${file}`, `/templates/config/${file}`);
   });
+
+  fs.appendFileSync(
+    ".gitignore",
+    `
+  
+  .env
+  `
+  );
 };
 
 const creatingStructure = () => {

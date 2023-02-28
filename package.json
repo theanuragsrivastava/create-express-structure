@@ -1,6 +1,6 @@
 {
   "name": "create-express-web-app",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A package to easily create the best express web application structure",
   "main": "index.js",
   "type": "module",
