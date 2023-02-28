@@ -21,4 +21,4 @@ app.get("/test", (req, res) => {
 // get all apis from rootRouter
 app.use("/api", rootRouter);
 
-module.exports = app;
+export default app;

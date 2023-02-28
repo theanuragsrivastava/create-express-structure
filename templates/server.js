@@ -3,8 +3,8 @@ import express from "express";
 import mongoose from "mongoose";
 
 // requiring app and mongoose connection string
-import mongoDbUrl from "./config/db.js";
-require("./app");
+import { mongoDbUrl } from "./config/db.js";
+import app from "./app";
 
 // initializing express server and port
 const server = express();
