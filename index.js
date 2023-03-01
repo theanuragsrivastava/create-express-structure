@@ -144,14 +144,8 @@ const creatingStructure = () => {
   initializeProjectandDeps();
   creatingFolders();
   creatingFiles();
-  spinner.succeed("project structure built");
-  boxen(
-    chalk.green(
-      "Start the development server with npm start, and checkout the Readme file for the understanding"
-    ),
-    {
-      padding: 1,
-    }
+  spinner.succeed(
+    "Start the development server with npm start, and checkout the Readme file for the understanding"
   );
 };
 
