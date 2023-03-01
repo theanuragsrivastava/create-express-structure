@@ -4,6 +4,11 @@ import { body, validationResult, param } from "express-validator";
 // import validation message
 import messages from "../utils/responseMessages";
 
+/*
+Handling the validation of the CRUD parameters
+This file will centralize the validation.
+*/
+
 // function to send response in case of error
 const sendResponse = (req, res, next) => {
   const errors = validationResult(req);

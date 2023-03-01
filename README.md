@@ -14,12 +14,6 @@ Install and create folder structure
   npx create-express-app
 ```
 
-or
-
-```bash
-  npm i create-express-app
-```
-
 Start the server
 
 ```bash
@@ -48,6 +42,7 @@ Your express folder structure will be created in the following format
 │   ├── utils
 │   │   ├── catchAsyncErrors.js
 │   │   ├── commonFunctions.js
+│   │   ├── helperFunction.js
 │   │   └── responseMessages.js
 ├── public
 ├── app.js

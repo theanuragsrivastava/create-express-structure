@@ -144,7 +144,9 @@ const creatingStructure = () => {
   initializeProjectandDeps();
   creatingFolders();
   creatingFiles();
-  spinner.succeed("project structure built");
+  spinner.succeed(
+    "Start the development server with npm start, and checkout the Readme file for the understanding"
+  );
 };
 
 creatingStructure();

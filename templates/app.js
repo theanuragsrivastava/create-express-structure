@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // get test route
 app.get("/test", (req, res) => {
-  res.send("Working...");
+  res.send("Server is up and running");
 });
 
 // get all apis from rootRouter
