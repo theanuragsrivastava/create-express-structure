@@ -1,8 +1,8 @@
 {
-  "name": "A new express application",
+  "name": "express-web-server",
   "version": "1.0.0",
   "description": "An express Application created by create-express-structure",
-  "main": "app.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "nodemon --experimental-specifier-resolution=node server.js"

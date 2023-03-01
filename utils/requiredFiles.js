@@ -6,6 +6,7 @@ export const utilsFiles = [
   "commonFunctions.js",
   "responseMessages.js",
   "catchAsyncErrors.js",
+  "helperFunction.js",
 ];
 export const middlewaresFiles = ["userValidator.js"];
 export const configFiles = ["db.js"];

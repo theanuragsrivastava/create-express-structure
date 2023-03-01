@@ -1,5 +1,5 @@
 {
-  "name": "create-express-web-app",
+  "name": "create-express-structure",
   "version": "1.1.1",
   "description": "A package to easily create the best express web application structure",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-express-web-app": "./index.js"
+    "create-express-structure": "./index.js"
   },
   "keywords": [
     "express",

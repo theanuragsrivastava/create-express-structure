@@ -1,14 +1,12 @@
 // importing dependencies
-import express from "express";
 import mongoose from "mongoose";
 
 // requiring app and mongoose connection string
 import { mongoDbUrl } from "./config/db.js";
 import app from "./app";
 
-// initializing express server and port
-const server = express();
-const PORT = process.env.PORT || 5000;
+// setting port
+const PORT = process.env.PORT || 8000;
 
 // connecting to database
 // mongoose.connect(mongoDbUrl, (err) => {
@@ -17,6 +15,6 @@ const PORT = process.env.PORT || 5000;
 // });
 
 // starting the server
-server.listen(PORT, (err) => {
+app.listen(PORT, (err) => {
   if (!err) console.log(`Server running on port ${PORT}`);
 });
