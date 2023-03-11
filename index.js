@@ -90,6 +90,8 @@ const creatingFiles = () => {
     .env`
   );
 
+  createFiles(__dirname, `README.md`, `/templates/README.md`);
+
   requiredFiles.controllerFiles.forEach((file) => {
     createFiles(
       __dirname,
