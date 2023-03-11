@@ -1,6 +1,6 @@
 {
   "name": "create-express-structure",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A package to easily create the best express web application structure",
   "main": "index.js",
   "type": "module",

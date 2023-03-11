@@ -1,4 +1,4 @@
-![create express app](./create-express-app-logo.png)
+![create express structure](./create-express-app-logo.png)
 
 # Create Express Structure
 
@@ -57,4 +57,4 @@ Your express folder structure will be created in the following format
 
 Contributions are always welcome!
 
-- [Connect Here](letsconnect@anuragsrivastav.com)
+- [Connect Here](mailto:letsconnect@anuragsrivastav.com)
