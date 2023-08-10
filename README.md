@@ -1,4 +1,4 @@
-![create express structure](./create-express-app-logo.png)
+![create express structure](./create-express-structure-logo.png)
 
 # Create Express Structure
 
@@ -11,7 +11,7 @@ This package will help you create the basic structure that developer need to cre
 Install and create folder structure
 
 ```bash
-  npx create-express-app
+  npx create-express-structure
 ```
 
 Start the server
